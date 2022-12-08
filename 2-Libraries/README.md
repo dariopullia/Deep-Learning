@@ -1,9 +1,8 @@
 # Libraries for Data Science
 
-### Prof. Stefano Carrazza
+An introduction to the main libraries for data science (Numpy, Matplotlib, Pandas and TensorFlow).
 
-**Summary:** In this lecture we go step by step through the basics of Python,
-Numpy, Matplotlib and TensorFlow.
+
 
 ## Exercise 1 - Numpy basics
 
