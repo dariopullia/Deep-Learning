@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 def main():
-    x=np.linspace(0,5)
+    x=np.linspace(0,5, 100)
     y=np.exp(-x) * np.cos(2*np.pi*x)
 
     plt.plot(x,y, marker='o')
