@@ -1,7 +1,5 @@
 # Introduction to Python
 
-
-
 ## Exercise 6 - Class 1
 
 Given the base class:
