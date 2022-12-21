@@ -1,6 +1,7 @@
 # Hand writing the basics
 
-We write from scratch a basic sequential model and then we compare it to itself written using Keras library. 
+We write from scratch a basic sequential model and then we compare it to itself written using Keras library.
+We also manually build the process to train a linear model.
 
 ## Exercise 1 - MLP network
 
@@ -64,42 +65,3 @@ Using TensorFlow primitives perform the following steps:
 
 11. Replace the training loop with Keras model API, check results.
 
-## Exercise 4 - Regression with sequential model
-
-Write a ML regression model using TensorFlow/Keras's sequential model with the following steps:
-
-**Data Loading**
-
-1. Download the data with:
-    ```
-    wget https://raw.githubusercontent.com/scarrazza/DL2022/main/Lecture_3/data.dat
-    # or (on OSX)
-    curl https://raw.githubusercontent.com/scarrazza/DL2022/main/Lecture_3/data.dat -o data.dat
-    ```
-    This file contains an undefined number of data points already divided into training and validation (x_tr, y_tr, x_val, y_val). The data is 2D dimensional.
-
-2. Load and plot data for training and validation.
-
-**Baseline linear fit**
-
-3. Create a baseline linear model (dense layer with 1 unit node) and store the instance of this class in a variable called `model`.
-
-4. Compile `model` using:
-    - the mean squared error as loss function,
-    - the `tensorflow.keras.optimizers.SGD` class with learning rate 0.01 as optimizer.
-
-5. Perform a fit with `model.fit` with full batch size and 500 epochs. Monitor the validation data during epochs.
-
-6. Plot the loss function for training and validation using the history object returned by `model.fit`.
-
-7. Plot the model prediction on top of data.
-
-**NN model fit**
-
-8. Build a neural network model with 3 layers containing 10 nodes each and `relu` activation function and a last layer with a single unit and linear activation function.
-
-9. Perform a fit using the same setup in 4-6.
-
-10. Plot the loss function history for training and validation.
-
-11. Plot the model prediction on top of data.
