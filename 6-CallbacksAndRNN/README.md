@@ -1,6 +1,8 @@
 # Callbacks and RNNs
 
+Use of callbacks to stop the training process and avoid overfitting.
 
+Use of LSTM to forecast daily temperature.
 
 
 ## Exercise 1: Early stopping

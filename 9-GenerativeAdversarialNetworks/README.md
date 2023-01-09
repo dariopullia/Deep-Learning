@@ -1,5 +1,11 @@
 # Generative models
+
+Use of a Generative Adversarial Network to create MNIST numbers from random noise.
+
 ![Alt Text](images/movie.gif)
+
+
+
 ## Exercise: Deep convolutional GAN
 
 1. Load the MNIST dataset and keep only the training images. Reshape images as

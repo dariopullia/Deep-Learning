@@ -1,5 +1,10 @@
 # Data augmentation and transfer learning.
 
+Use of data augmentation to improve performances.
+
+Transfer learning from a base model.
+
+
 ## Exercise 1: Classification with data augmentation
 
 1. Load the following dataset with 3670 photos of flowers with shape (180, 180, 3) each.
