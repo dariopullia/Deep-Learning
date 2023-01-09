@@ -1,5 +1,5 @@
 # Deep Learning 
-Full repository with exercises and final project
+Full repository for the Unimi Deep Learning course. 
 
 ## 1-Introduction to Python
 
