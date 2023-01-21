@@ -22,22 +22,22 @@ Use of keras to perform a regression on a set of points and a classification bet
 
 Use of Hyperopt to perform a hyperparameter search.
 
-# Callbacks and RNNs
+## 6-Callbacks and RNNs
 
 Use of callbacks to stop the training process and avoid overfitting.
 
 Use of LSTM to forecast daily temperature.
 
-# Image Recognition
+## 7-Image Recognition
 
 CNNs, classification and localization.
 
-# Data augmentation and transfer learning.
+## 8-Data augmentation and transfer learning.
 
 Use of data augmentation to improve performances.
 
 Transfer learning from a base model.
 
-# Generative models
+## 9-Generative models
 
 Use of a Generative Adversarial Network to create MNIST numbers from random noise.
